@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&family=Sofia&display=swap');
+
+@font-face {
+    font-family: testFont;
+    src: url('/fonts/3d_unicode.ttf')
+}
+
+#myBttn {
+    /* padding: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(60, 199, 153);
+    border: none;
+    cursor: pointer;
+}
+
+#welcomeText {
+    font-family: testFont;
+}
+
+#start {
+    padding: 20px;
+    color: red;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#end {
+    padding: 20px;
+    color: red;
+    background-color: aquamarine;
+    /* margin: 70px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    font-family: "Sofia";
+}
+
+#randomData {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline;
+    text-transform:capitalize;
+}

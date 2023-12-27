@@ -1,0 +1,41 @@
+body {
+    width: 960px;
+}
+
+.hSection1 {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+}
+
+.line {
+    background-color: black;
+    padding: 2px;
+}
+
+.hSection2 {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.hSection3 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#sectionText {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
