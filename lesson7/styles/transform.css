@@ -1,0 +1,22 @@
+#randPic {
+    width: 200px;
+    height: 130px;
+    transform: rotate(20deg);
+}
+
+#randPic1 {
+
+    width: 200px;
+    height: 130px;
+    transform: skew(20deg, 30deg);
+    /* transform: skewX(89deg); */
+    /* transform: skewY(30deg); */
+}
+
+#randPic2 {
+    width: 200px;
+    height: 130px;
+    transform: translateX(120px);
+    transform: translateY(100px);
+    transform: translateZ(120px);
+}

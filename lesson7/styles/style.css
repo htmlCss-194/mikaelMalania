@@ -1,0 +1,43 @@
+.static {
+    position: static;
+    border: 3px solid #58a77b;
+}
+
+.relative {
+    position: relative;
+    border: 3px solid #946a2c;
+    left: 30px;
+    top: 20%;
+}
+
+.fixed {
+    position: fixed;
+    background-color: aquamarine;
+    left: 100px;
+    top: 50%;
+}
+
+.sticky {
+    position: sticky;
+    background-color: yellowgreen;
+    top: 5px;
+    padding: 5px;
+    border: 2px solid rgb(56, 73, 21);
+}
+
+.relativeNew {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #b2324e;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #b2324e;
+    background-color: aqua;
+}

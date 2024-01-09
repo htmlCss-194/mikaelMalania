@@ -1,0 +1,18 @@
+#txtShadow {
+    font-family:'Trebuchet MS';
+    font-size: 28px;
+    text-align: center;
+    color: rgb(92, 155, 210);
+    text-shadow: 2px 2px 3px #c82d2d, 4px 4px 3px #f0a61c;
+}
+
+#boxShadowText {
+    font-family:'Segoe UI';
+
+}
+
+.boxShadow1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 4px 8px 5px #1be322, 8px 12px 5px rgb(208, 233, 24);
+}
