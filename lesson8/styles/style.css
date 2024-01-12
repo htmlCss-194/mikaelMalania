@@ -1,0 +1,25 @@
+#randomLink:visited {
+    color: rgb(159, 13, 232);
+}
+
+#randomLink {
+    color: aquamarine;
+}
+
+#regButton:disabled {
+    background-color: rgb(243, 100, 100);
+}
+
+#regButton:enabled {
+    background-color: green;
+}
+
+#firstName:focus {
+    background-color: rgb(255, 221, 0);
+    padding: 10px;
+}
+
+#lastName:focus {
+    background-color: rgb(255, 221, 0);
+    padding: 10px;
+}

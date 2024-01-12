@@ -1,0 +1,5 @@
+• hover ეფექტები
+• transition property
+• keyframe animations
+• background image property
+• საფინალო პროექტის მიმოხილვა

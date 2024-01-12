@@ -1,0 +1,15 @@
+#transitionText {
+    background-color:rgb(176, 204, 228);
+    width: 300px;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-family: 'Trebuchet MS';
+}
+
+#transitionText:hover {
+    transition:padding 10s ease-in-out, color 10s ease-in-out;
+    background-color: rgb(182, 18, 146);
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+}
