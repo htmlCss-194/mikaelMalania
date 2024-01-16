@@ -1,0 +1,4 @@
+• ვებ გვერდის რესპონსიული წყობა
+• breakpoints in responsive web design
+• css@media-ს გამოყენება
+• responsive checker
