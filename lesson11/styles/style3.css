@@ -1,0 +1,30 @@
+:root {
+    --colorOfSomeRandomTag: rgb(197, 137, 40);
+}
+
+li::marker {
+    color: var(--colorOfSomeRandomTag);
+    font-size: 18px;
+}
+
+#randomText::selection {
+    color: var(--colorOfSomeRandomTag);
+    background: var(--colorOfSomeRandomTag);
+}
+
+#randomText:hover::before {
+    content: "Please read this: ";
+}
+
+#randomText::after {
+    content: " Thank you for reading this nonsence!";
+}
+
+#randomText::first-letter {
+    font-size: 24px;
+}
+
+#randomText::first-line {
+    color: var(--colorOfSomeRandomTag);
+    font-variant: small-caps
+};

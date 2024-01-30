@@ -1,0 +1,19 @@
+.grid-wrapper {
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 2fr 2fr 1fr;
+
+    background-color: rgb(46, 155, 206);
+    border: 2px solid rgb(10, 33, 44);
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-element {
+    background-color: rgb(161, 212, 236);
+    border: 2px solid rgb(49, 63, 69);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
