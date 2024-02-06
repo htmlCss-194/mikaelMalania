@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                font-family: 'Gill Sans', sans-serif;
+            }
+
+            .mobileBurgerMenu {
+                max-width: 480px;
+                margin: auto;
+                background-color: gray;
+                height: 550px;
+                color: white;
+                border-radius: 15px;
+            }
+            
+            .upperNav {
+                overflow: hidden;
+                background-color: #333;
+                position: relative;
+            }
+
+            .upperNav .navLinks {
+                display: none;
+            }
+
+            .upperNav a {
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 18px;
+                display: block;
+            }
+
+            .upperNav a:hover {
+                background-color: rgb(194, 192, 192);
+                color: white;
+            }
+
+            .upperNav .menuIcon {
+                background: black;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .active {
+                background-color: rgb(0, 83, 128);
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="mobileBurgerMenu">
+            <div class="upperNav">
+                <a href="#" class="active">
+                    Logo
+                </a>
+                <div class="navLinks">
+                    <a href="#news">News</a>
+                    <a href="#ContactUs">Contact Us</a>
+                    <a href="#about">About</a>
+                </div>
+                <a href="javascript:void(0);" class="menuIcon" onclick="displayMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div style="padding-left: 20px;">
+                <h3>Vertical Navbar for mobile</h3>
+                <p>This is example usage of javascript to create a sample burger bar with the help of Html+Css</p>
+                <p>this Burger menu will contain several pages to quickly navigate trough website</p>
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+            function displayMenu() {
+                let menuLinks = document.querySelector(".navLinks");
+
+                if (menuLinks.style.display === "block") {
+                    menuLinks.style.display = "none";
+                } else {
+                    menuLinks.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
